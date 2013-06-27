@@ -112,7 +112,7 @@ EntityTreeView::EntityTreeView(Entity *rootEntity) : UIElement() {
 
 	EntityBrowserData *data = new EntityBrowserData();
 	data->entity = rootEntity;
-	treeContainer->getRootNode()->setUserData((void*) data)	
+	treeContainer->getRootNode()->setUserData((void*) data);
 
 	addChild(treeContainer);
 
