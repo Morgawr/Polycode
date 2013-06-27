@@ -43,7 +43,6 @@ PolycodeProjectBrowser::PolycodeProjectBrowser() : UIElement() {
 	treeContainer->getRootNode()->addEventListener(this, UITreeEvent::SELECTED_EVENT);
 	treeContainer->getRootNode()->addEventListener(this, UITreeEvent::EXECUTED_EVENT);
 	treeContainer->addEventListener(this, InputEvent::EVENT_MOUSEDOWN);
-	//treeContainer->addEventListener(this, UITreeEvent::EXECUTED_EVENT);
 	treeContainer->setPosition(0, 30);
 	
 	BrowserUserData *data = new BrowserUserData();
