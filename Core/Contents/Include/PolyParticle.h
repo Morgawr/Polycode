@@ -35,7 +35,7 @@ namespace Polycode {
 		public:
 			Particle(int particleType, bool isScreenParticle, Material *material, Texture *texture, Mesh *particleMesh);
 			~Particle();
-			void Reset(bool continuious);
+			void Reset(bool continuous);
 			
 			void createSceneParticle(int particleType, Material *material, Mesh *particleMesh);
 			void createScreenParticle(int particleType, Texture *texture, Mesh *particleMesh);
