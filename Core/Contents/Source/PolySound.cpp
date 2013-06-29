@@ -545,15 +545,15 @@ ALuint Sound::loadWAV(const String& fileName) {
 	f = NULL;
 
 	return loadBytes(&data[0], data.size(), freq, channels, bps);
-	if (buffer && alIsBuffer(buffer) == AL_TRUE)
-		alDeleteBuffers(1, &buffer);
-
-	if (array)
-		delete []array;
-
-	if (f)
-		OSBasics::close(f);
-
-	throw (e);
+//	if (buffer && alIsBuffer(buffer) == AL_TRUE)
+//		alDeleteBuffers(1, &buffer);
+//
+//	if (array)
+//		delete []array;
+//
+//	if (f)
+//		OSBasics::close(f);
+//
+//	throw (e);
 
 }

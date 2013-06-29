@@ -265,7 +265,7 @@ bool isPointInsidePolygon2D(Polycode::Polygon *poly, const Vector2 &p) {
 
 	}
 
-	return !(fabs(angle) < PI)
+	return !(fabs(angle) < PI);
 }
 
 
